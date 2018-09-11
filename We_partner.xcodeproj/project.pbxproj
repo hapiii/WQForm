@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1210AC8613240D98B5D2DBCF /* libPods-We_partner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8642DC8822028B65872D00E4 /* libPods-We_partner.a */; };
+		BF83881D21422C3D0096DA11 /* WPBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83881C21422C3D0096DA11 /* WPBaseView.m */; };
+		BF83882021422C5A0096DA11 /* WPProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83881F21422C5A0096DA11 /* WPProgressView.m */; };
+		BF83882421425E640096DA11 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83882321425E640096DA11 /* BaseTableViewController.m */; };
+		BF83882721425EFD0096DA11 /* WPSubmit1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83882621425EFD0096DA11 /* WPSubmit1Controller.m */; };
+		BF83882B214276000096DA11 /* WPBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83882A214276000096DA11 /* WPBaseCell.m */; };
+		BF83882E214276810096DA11 /* WPDataOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83882D214276810096DA11 /* WPDataOneCell.m */; };
+		BF838831214276D40096DA11 /* WPDataTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF838830214276D40096DA11 /* WPDataTwoCell.m */; };
+		BF838834214281030096DA11 /* WPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BF838833214281030096DA11 /* WPTextField.m */; };
+		BF83883C214682D70096DA11 /* WPTBContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83883B214682D70096DA11 /* WPTBContainer.m */; };
+		BF838842214792AC0096DA11 /* WPPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF838841214792AC0096DA11 /* WPPickerCell.m */; };
+		BF8388462147979D0096DA11 /* UoPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8388452147979C0096DA11 /* UoPickerView.m */; };
+		BF83884A2147D07A0096DA11 /* CellConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8388492147D07A0096DA11 /* CellConfig.m */; };
 		BFB066EE21392500006A5A18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB066ED21392500006A5A18 /* AppDelegate.m */; };
-		BFB066F121392500006A5A18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB066F021392500006A5A18 /* ViewController.m */; };
 		BFB066F421392500006A5A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB066F221392500006A5A18 /* Main.storyboard */; };
 		BFB066F621392504006A5A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB066F521392504006A5A18 /* Assets.xcassets */; };
 		BFB066F921392504006A5A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB066F721392504006A5A18 /* LaunchScreen.storyboard */; };
 		BFB066FC21392504006A5A18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB066FB21392504006A5A18 /* main.m */; };
 		BFB0670621392504006A5A18 /* We_partnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0670521392504006A5A18 /* We_partnerTests.m */; };
 		BFB0671121392504006A5A18 /* We_partnerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0671021392504006A5A18 /* We_partnerUITests.m */; };
+		BFB0672B213937B1006A5A18 /* UoCommonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB06727213937AF006A5A18 /* UoCommonConfig.m */; };
+		BFB0674021393AFB006A5A18 /* WPBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0673F21393AFB006A5A18 /* WPBaseController.m */; };
+		BFB0674321393B2C006A5A18 /* WPHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0674221393B2C006A5A18 /* WPHomeController.m */; };
+		BFB0674621394ADD006A5A18 /* WPNAVController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0674521394ADD006A5A18 /* WPNAVController.m */; };
+		BFB06759213E78AE006A5A18 /* UoFactoryTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB06758213E78AD006A5A18 /* UoFactoryTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +52,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C39A2303BF88E5314E42060 /* Pods-We_partner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-We_partner.release.xcconfig"; path = "Pods/Target Support Files/Pods-We_partner/Pods-We_partner.release.xcconfig"; sourceTree = "<group>"; };
+		8642DC8822028B65872D00E4 /* libPods-We_partner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-We_partner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF83881B21422C3D0096DA11 /* WPBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPBaseView.h; sourceTree = "<group>"; };
+		BF83881C21422C3D0096DA11 /* WPBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPBaseView.m; sourceTree = "<group>"; };
+		BF83881E21422C5A0096DA11 /* WPProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPProgressView.h; sourceTree = "<group>"; };
+		BF83881F21422C5A0096DA11 /* WPProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPProgressView.m; sourceTree = "<group>"; };
+		BF83882221425E640096DA11 /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		BF83882321425E640096DA11 /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		BF83882521425EFD0096DA11 /* WPSubmit1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPSubmit1Controller.h; sourceTree = "<group>"; };
+		BF83882621425EFD0096DA11 /* WPSubmit1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPSubmit1Controller.m; sourceTree = "<group>"; };
+		BF838829214276000096DA11 /* WPBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPBaseCell.h; sourceTree = "<group>"; };
+		BF83882A214276000096DA11 /* WPBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPBaseCell.m; sourceTree = "<group>"; };
+		BF83882C214276810096DA11 /* WPDataOneCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPDataOneCell.h; sourceTree = "<group>"; };
+		BF83882D214276810096DA11 /* WPDataOneCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPDataOneCell.m; sourceTree = "<group>"; };
+		BF83882F214276D40096DA11 /* WPDataTwoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPDataTwoCell.h; sourceTree = "<group>"; };
+		BF838830214276D40096DA11 /* WPDataTwoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPDataTwoCell.m; sourceTree = "<group>"; };
+		BF838832214281030096DA11 /* WPTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPTextField.h; sourceTree = "<group>"; };
+		BF838833214281030096DA11 /* WPTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPTextField.m; sourceTree = "<group>"; };
+		BF83883A214682D70096DA11 /* WPTBContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPTBContainer.h; sourceTree = "<group>"; };
+		BF83883B214682D70096DA11 /* WPTBContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPTBContainer.m; sourceTree = "<group>"; };
+		BF838840214792AC0096DA11 /* WPPickerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPPickerCell.h; sourceTree = "<group>"; };
+		BF838841214792AC0096DA11 /* WPPickerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPPickerCell.m; sourceTree = "<group>"; };
+		BF8388442147979C0096DA11 /* UoPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UoPickerView.h; sourceTree = "<group>"; };
+		BF8388452147979C0096DA11 /* UoPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UoPickerView.m; sourceTree = "<group>"; };
+		BF8388482147D07A0096DA11 /* CellConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellConfig.h; sourceTree = "<group>"; };
+		BF8388492147D07A0096DA11 /* CellConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellConfig.m; sourceTree = "<group>"; };
 		BFB066E921392500006A5A18 /* We_partner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = We_partner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB066EC21392500006A5A18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFB066ED21392500006A5A18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BFB066EF21392500006A5A18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BFB066F021392500006A5A18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BFB066F321392500006A5A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFB066F521392504006A5A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB066F821392504006A5A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +92,19 @@
 		BFB0670C21392504006A5A18 /* We_partnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = We_partnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB0671021392504006A5A18 /* We_partnerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = We_partnerUITests.m; sourceTree = "<group>"; };
 		BFB0671221392504006A5A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB06727213937AF006A5A18 /* UoCommonConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UoCommonConfig.m; sourceTree = "<group>"; };
+		BFB06728213937AF006A5A18 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BFB06729213937B0006A5A18 /* AppHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppHeader.h; sourceTree = "<group>"; };
+		BFB0672A213937B1006A5A18 /* UoCommonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UoCommonConfig.h; sourceTree = "<group>"; };
+		BFB0673E21393AFB006A5A18 /* WPBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPBaseController.h; sourceTree = "<group>"; };
+		BFB0673F21393AFB006A5A18 /* WPBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPBaseController.m; sourceTree = "<group>"; };
+		BFB0674121393B2C006A5A18 /* WPHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPHomeController.h; sourceTree = "<group>"; };
+		BFB0674221393B2C006A5A18 /* WPHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPHomeController.m; sourceTree = "<group>"; };
+		BFB0674421394ADD006A5A18 /* WPNAVController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPNAVController.h; sourceTree = "<group>"; };
+		BFB0674521394ADD006A5A18 /* WPNAVController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPNAVController.m; sourceTree = "<group>"; };
+		BFB06757213E78AD006A5A18 /* UoFactoryTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UoFactoryTool.h; sourceTree = "<group>"; };
+		BFB06758213E78AD006A5A18 /* UoFactoryTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UoFactoryTool.m; sourceTree = "<group>"; };
+		D88E8125A81980B3577CD008 /* Pods-We_partner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-We_partner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-We_partner/Pods-We_partner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1210AC8613240D98B5D2DBCF /* libPods-We_partner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +133,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FF4677532618FC685331CA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8642DC8822028B65872D00E4 /* libPods-We_partner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4CEBBD03FC99BAA2F4A8982 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D88E8125A81980B3577CD008 /* Pods-We_partner.debug.xcconfig */,
+				4C39A2303BF88E5314E42060 /* Pods-We_partner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF83881A21422C140096DA11 /* ListProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				BF83881E21422C5A0096DA11 /* WPProgressView.h */,
+				BF83881F21422C5A0096DA11 /* WPProgressView.m */,
+			);
+			path = ListProgressView;
+			sourceTree = "<group>";
+		};
+		BF83882121425E270096DA11 /* submitControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF838828214275D10096DA11 /* cells */,
+				BF8388472147D0520096DA11 /* ConfigModel */,
+				BF83882521425EFD0096DA11 /* WPSubmit1Controller.h */,
+				BF83882621425EFD0096DA11 /* WPSubmit1Controller.m */,
+			);
+			path = submitControllers;
+			sourceTree = "<group>";
+		};
+		BF838828214275D10096DA11 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				BF83882C214276810096DA11 /* WPDataOneCell.h */,
+				BF83882D214276810096DA11 /* WPDataOneCell.m */,
+				BF83882F214276D40096DA11 /* WPDataTwoCell.h */,
+				BF838830214276D40096DA11 /* WPDataTwoCell.m */,
+				BF838840214792AC0096DA11 /* WPPickerCell.h */,
+				BF838841214792AC0096DA11 /* WPPickerCell.m */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		BF838839214682B50096DA11 /* WPTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BF83883A214682D70096DA11 /* WPTBContainer.h */,
+				BF83883B214682D70096DA11 /* WPTBContainer.m */,
+			);
+			path = WPTableView;
+			sourceTree = "<group>";
+		};
+		BF8388432147979C0096DA11 /* UoPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				BF8388442147979C0096DA11 /* UoPickerView.h */,
+				BF8388452147979C0096DA11 /* UoPickerView.m */,
+			);
+			name = UoPickerView;
+			path = ../../../We_cash/UoUo/Vendors/UoPickerView;
+			sourceTree = "<group>";
+		};
+		BF8388472147D0520096DA11 /* ConfigModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF8388482147D07A0096DA11 /* CellConfig.h */,
+				BF8388492147D07A0096DA11 /* CellConfig.m */,
+			);
+			path = ConfigModel;
+			sourceTree = "<group>";
+		};
 		BFB066E021392500006A5A18 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +218,8 @@
 				BFB0670421392504006A5A18 /* We_partnerTests */,
 				BFB0670F21392504006A5A18 /* We_partnerUITests */,
 				BFB066EA21392500006A5A18 /* Products */,
+				B4CEBBD03FC99BAA2F4A8982 /* Pods */,
+				3FF4677532618FC685331CA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +236,14 @@
 		BFB066EB21392500006A5A18 /* We_partner */ = {
 			isa = PBXGroup;
 			children = (
-				BFB066EC21392500006A5A18 /* AppDelegate.h */,
-				BFB066ED21392500006A5A18 /* AppDelegate.m */,
-				BFB066EF21392500006A5A18 /* ViewController.h */,
-				BFB066F021392500006A5A18 /* ViewController.m */,
+				BFB0671E21393481006A5A18 /* AppEntry */,
+				BFB0671F21393490006A5A18 /* Tools */,
+				BFB067202139349A006A5A18 /* Vendors */,
+				BFB06721213934A9006A5A18 /* Config */,
+				BFB06722213934BC006A5A18 /* BaseClass */,
+				BFB0672621393546006A5A18 /* Controllers */,
 				BFB066F221392500006A5A18 /* Main.storyboard */,
 				BFB066F521392504006A5A18 /* Assets.xcassets */,
-				BFB066F721392504006A5A18 /* LaunchScreen.storyboard */,
-				BFB066FA21392504006A5A18 /* Info.plist */,
-				BFB066FB21392504006A5A18 /* main.m */,
 			);
 			path = We_partner;
 			sourceTree = "<group>";
@@ -132,6 +266,85 @@
 			path = We_partnerUITests;
 			sourceTree = "<group>";
 		};
+		BFB0671E21393481006A5A18 /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				BFB066FA21392504006A5A18 /* Info.plist */,
+				BFB066FB21392504006A5A18 /* main.m */,
+				BFB066F721392504006A5A18 /* LaunchScreen.storyboard */,
+				BFB066EC21392500006A5A18 /* AppDelegate.h */,
+				BFB066ED21392500006A5A18 /* AppDelegate.m */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		BFB0671F21393490006A5A18 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BFB06757213E78AD006A5A18 /* UoFactoryTool.h */,
+				BFB06758213E78AD006A5A18 /* UoFactoryTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BFB067202139349A006A5A18 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				BF8388432147979C0096DA11 /* UoPickerView */,
+				BF838839214682B50096DA11 /* WPTableView */,
+				BF83881A21422C140096DA11 /* ListProgressView */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		BFB06721213934A9006A5A18 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BFB06729213937B0006A5A18 /* AppHeader.h */,
+				BFB06728213937AF006A5A18 /* PrefixHeader.pch */,
+				BFB0672A213937B1006A5A18 /* UoCommonConfig.h */,
+				BFB06727213937AF006A5A18 /* UoCommonConfig.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		BFB06722213934BC006A5A18 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				BFB0673E21393AFB006A5A18 /* WPBaseController.h */,
+				BFB0673F21393AFB006A5A18 /* WPBaseController.m */,
+				BFB0674421394ADD006A5A18 /* WPNAVController.h */,
+				BFB0674521394ADD006A5A18 /* WPNAVController.m */,
+				BF83881B21422C3D0096DA11 /* WPBaseView.h */,
+				BF83881C21422C3D0096DA11 /* WPBaseView.m */,
+				BF83882221425E640096DA11 /* BaseTableViewController.h */,
+				BF83882321425E640096DA11 /* BaseTableViewController.m */,
+				BF838829214276000096DA11 /* WPBaseCell.h */,
+				BF83882A214276000096DA11 /* WPBaseCell.m */,
+				BF838832214281030096DA11 /* WPTextField.h */,
+				BF838833214281030096DA11 /* WPTextField.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		BFB0672621393546006A5A18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFB0673D21393ACF006A5A18 /* Home */,
+				BF83882121425E270096DA11 /* submitControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BFB0673D21393ACF006A5A18 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BFB0674121393B2C006A5A18 /* WPHomeController.h */,
+				BFB0674221393B2C006A5A18 /* WPHomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +352,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFB0671521392504006A5A18 /* Build configuration list for PBXNativeTarget "We_partner" */;
 			buildPhases = (
+				08161B2D11B9B6212E3E9D2C /* [CP] Check Pods Manifest.lock */,
 				BFB066E521392500006A5A18 /* Sources */,
 				BFB066E621392500006A5A18 /* Frameworks */,
 				BFB066E721392500006A5A18 /* Resources */,
@@ -194,6 +408,7 @@
 		BFB066E121392500006A5A18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WP;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "鹰云";
 				TargetAttributes = {
@@ -257,14 +472,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08161B2D11B9B6212E3E9D2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-We_partner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFB066E521392500006A5A18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB066F121392500006A5A18 /* ViewController.m in Sources */,
+				BF838834214281030096DA11 /* WPTextField.m in Sources */,
+				BF83882721425EFD0096DA11 /* WPSubmit1Controller.m in Sources */,
+				BF838842214792AC0096DA11 /* WPPickerCell.m in Sources */,
 				BFB066FC21392504006A5A18 /* main.m in Sources */,
+				BF8388462147979D0096DA11 /* UoPickerView.m in Sources */,
+				BF83882021422C5A0096DA11 /* WPProgressView.m in Sources */,
+				BFB0674021393AFB006A5A18 /* WPBaseController.m in Sources */,
+				BF83884A2147D07A0096DA11 /* CellConfig.m in Sources */,
+				BF83881D21422C3D0096DA11 /* WPBaseView.m in Sources */,
+				BFB06759213E78AE006A5A18 /* UoFactoryTool.m in Sources */,
+				BFB0674321393B2C006A5A18 /* WPHomeController.m in Sources */,
+				BFB0672B213937B1006A5A18 /* UoCommonConfig.m in Sources */,
+				BF83882421425E640096DA11 /* BaseTableViewController.m in Sources */,
 				BFB066EE21392500006A5A18 /* AppDelegate.m in Sources */,
+				BF83882E214276810096DA11 /* WPDataOneCell.m in Sources */,
+				BF83882B214276000096DA11 /* WPBaseCell.m in Sources */,
+				BF83883C214682D70096DA11 /* WPTBContainer.m in Sources */,
+				BF838831214276D40096DA11 /* WPDataTwoCell.m in Sources */,
+				BFB0674621394ADD006A5A18 /* WPNAVController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,11 +683,13 @@
 		};
 		BFB0671621392504006A5A18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88E8125A81980B3577CD008 /* Pods-We_partner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4844W5TRD;
-				INFOPLIST_FILE = We_partner/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/We_partner/Config/PrefixHeader.pch";
+				INFOPLIST_FILE = We_partner/AppEntry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +702,13 @@
 		};
 		BFB0671721392504006A5A18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C39A2303BF88E5314E42060 /* Pods-We_partner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4844W5TRD;
-				INFOPLIST_FILE = We_partner/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/We_partner/Config/PrefixHeader.pch";
+				INFOPLIST_FILE = We_partner/AppEntry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

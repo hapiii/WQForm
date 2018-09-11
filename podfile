@@ -1,0 +1,8 @@
+platform :ios,'8.0'
+target 'We_partner' do
+ pod 'Masonry', '~> 1.0.0'
+ pod 'YYCategories', '~> 1.0.4'
+end
+
+
+

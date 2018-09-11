@@ -1,0 +1,22 @@
+PODS:
+  - Masonry (1.0.2)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - Masonry (~> 1.0.0)
+  - YYCategories (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - YYCategories
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: 32ec4d458502e3511b0c5372c49614ceb38aa618
+
+COCOAPODS: 1.5.3
