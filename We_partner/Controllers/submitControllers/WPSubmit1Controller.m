@@ -27,7 +27,7 @@
     tableViewGesture.numberOfTapsRequired = 1;
     tableViewGesture.cancelsTouchesInView = NO;
     [self.tableView addGestureRecognizer:tableViewGesture];
-    self.tableView.keyboardDismissMode =  UIScrollViewKeyboardDismissModeOnDrag;
+    self.tableView.keyboardDismissMode =  UIScrollViewKeyboardDismissModeOnDrag;//beginDisablingInterfaceAutorotation. Ignoring
 }
 - (void)commentTableViewTouchInSide{
     [self.view endEditing:YES];

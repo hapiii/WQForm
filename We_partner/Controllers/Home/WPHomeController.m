@@ -30,7 +30,7 @@
     UIButton *loginBtn = [UoFactoryTool FactoryButtonWithTitle:@"登录" font:12 backGroundColor:[UIColor greenColor] Alignment:NSTextAlignmentCenter fontColor:[UIColor whiteColor]];
     [self.view addSubview:loginBtn];
     [loginBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.view).offset(50);
+        make.top.equalTo(self.view).offset(100);
         make.left.equalTo(self.view).offset(KXRATE(30));
         make.right.equalTo(self.view).offset(KXRATE(-30));
         make.height.offset(50);

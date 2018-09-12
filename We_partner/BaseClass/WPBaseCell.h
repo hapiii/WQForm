@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "WPTextField.h"
+#import "CellConfig.h"
 
 @interface WPBaseCell : UITableViewCell
 
 @property(nonatomic,strong)NSDictionary *cellValues;
+
 @property(nonatomic,copy)void(^RefreshTheCellData)(NSDictionary *newData);
+
+@property(nonatomic,strong)NSString *csConfig;
 
 @end

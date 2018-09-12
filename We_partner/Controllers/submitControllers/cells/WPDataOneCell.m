@@ -60,15 +60,21 @@
 //    _cellValues = cellValues;
 //    self.tf.placeholder = ce
 //}
+
+
 -(void)setModel:(CellConfig *)model{
     _model = model;
+   
     self.tf.placeholder = model.placeHolder;
     [self.rightBtn setImage:imgStr(model.rightImg) forState:UIControlStateNormal];
     self.cellTitleLab.text = model.cellTitle;
     self.cellTitleLab.font = [UIFont systemFontOfSize:model.cellTitleFont];
-    
+    NSLog(@"%@ csConfig======",self.csConfig);
+    //self.cellValues = [NSDictionary dictionaryWithObject:@"--" forKey:model.cellKey];
     
 }
+
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

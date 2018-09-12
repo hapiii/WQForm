@@ -29,9 +29,8 @@
             self.rightBtn.size = CGSizeMake(30, 30);
 //          self.rightBtn.contentMode = UIViewContentModeRight;
             [self.rightBtn setImage:imgStr(rightImg) forState:UIControlStateNormal];
-          
             self.rightView = self.rightBtn;
-
+        
         }
        
 

@@ -9,6 +9,7 @@
 #import "WPBaseCell.h"
 
 @implementation WPBaseCell
+@synthesize cellValues = _cellValues;
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -21,18 +22,21 @@
     return self;
 }
 
+//-(NSDictionary *)cellValues{
+//    if (_cellValues==nil) {
+//        _cellValues = [NSDictionary dictionaryWithObject:self forKey:<#(nonnull id<NSCopying>)#>];
+//    }
+//    return _cellValues;
+//}
+
+
 -(void)setCellValues:(NSDictionary *)cellValues{
     DBLog(@"%@",cellValues);
     _cellValues = cellValues;
     _RefreshTheCellData(cellValues);
 }
 
-//-(NSDictionary *)cellValues{
-//    if (_cellValues==nil) {
-//        _cellValues = [NSDictionary new];
-//    }
-//    return _cellValues;
-//}
+
 
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

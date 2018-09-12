@@ -52,11 +52,13 @@
 
 
 -(void)setModel:(CellConfig *)model{
+    
     _model = model;
    
     self.cellTitleLab.text = model.cellTitle;
     self.cellTitleLab.font = [UIFont systemFontOfSize:model.cellTitleFont];
     self.detailLab.text = model.placeHolder;
+    //self.cellValues = [NSDictionary dictionaryWithObject:@"--" forKey:model.cellKey];
 }
 
 
